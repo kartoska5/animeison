@@ -1,0 +1,45 @@
+div{
+    width: 235px;
+height: 235px;
+font-size: 37px;
+
+background-color: rgb(5, 44, 0);
+margin: 27px;
+color: rgb(255, 238, 0);
+
+transition-duration: 8s;
+}
+.animeihon{
+transform: translate(1,1);
+} 
+.animeihon:hover{
+    transform: translate(37px,27px);
+}
+.ani{
+transform: scale(1,1);
+}
+.ani:hover{
+    transform: scale(-8,-13);
+}
+.anim{
+    transform: rotate(0deg);
+    transition-duration: 15s;
+}
+.anim:hover{
+    transform: rotate(360deg);
+}
+.animeih{
+    transform: skew(0deg);
+}
+.animeih:hover{
+    transform: skew(-35deg,47deg);
+}
+.anime{
+    transform-origin: top left;
+}
+.anime:hover{
+    transform: rotate(360deg);
+}
+.animeiho:hover{
+    transform: translate(67px,58px) scale(5,8) rotate(360deg);
+}

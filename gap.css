@@ -1,0 +1,22 @@
+h1{
+   text-align: center;
+}
+img{
+    width: 200px;
+    height: 180px;
+    float: right;
+}
+#h3{
+display: flex;
+margin:  47px;
+align-items: center;
+}
+table{
+    border: solid 1px;
+    width: 100px;
+    height: 50px;
+}
+tr td{
+    width: 325px;
+    height: 315px;
+} 
